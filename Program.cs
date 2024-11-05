@@ -1,4 +1,5 @@
-﻿namespace AccessModifiers
+﻿using ProjectTwo.Classes;
+namespace AccessModifiers
 {
     internal class Program
     {
@@ -11,7 +12,20 @@
         //----------file-------------------//
         static void Main(string[] args)
         {
-
+            var customer = new Customer();
+            //customer.name
         }
     }
+
+    class X : Customer
+    {
+        public X()
+        {
+            name = "";
+            //id
+        }
+    }
+
+
+
 }

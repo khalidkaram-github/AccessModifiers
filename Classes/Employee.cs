@@ -1,6 +1,13 @@
 ﻿namespace AccessModifiers
 {
-    internal class Employee
+    public class Department
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
+
+    public class EmployeeASD
     {
         public int Id { get; set; }
         internal string Name { get; set; }
